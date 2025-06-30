@@ -1,0 +1,2 @@
+# MatrixGate
+MatrixGate是矩阵之门的官方游戏存储库，目前只处于PPT阶段，是一个有RPG和肉鸽元素的3D俯视角MC1.21风格的剧情向PVE推理游戏
