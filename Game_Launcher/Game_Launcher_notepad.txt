@@ -1,0 +1,4 @@
+2025/7/1 21:20:19 
+Updated the new launcher 
+wrote game logs 
+prepare for the actual game launcher interface
