@@ -17,9 +17,9 @@ loading_tips = [  # 可自定义提示语列表
     "即将进入游戏！"
 ]
 tip_switch_interval = 3  # 每条提示语显示时间（秒）
-progress_bar_color = color.hex("#F5D76E")  # 马卡龙金色
-window_color = rgba(0, 0, 0, 0.7)  # 半透明高级黑
-window_border_color = rgba(128, 128, 128, 0.5)  # 半透明高级灰
+window_color = "#000000B3"  # 半透明高级黑（B3 ≈ 70% 不透明度）
+window_border_color = "#80808080"  # 半透明高级灰（80 ≈ 50% 不透明度）
+progress_bar_color = "#F5D76E"  # 马卡龙金色（直接十六进制）
 window_size = 0.4  # 窗口占屏幕宽度的比例（40%）
 
 # ===== 背景 =====
@@ -51,7 +51,8 @@ Entity(parent=window, model="quad", color=window_border_color, scale=(border_thi
 progress_bar_bg = Entity(
     parent=window,
     model="quad",
-    color=rgba(100, 100, 100, 0.3),  # 进度条背景色
+    #color=rgba(100, 100, 100, 0.3) #原来的错误代码
+    color="#6464644D",  # 半透明深灰色（替代 rgba(100, 100, 100, 0.3)）
     scale=(0.9, 0.1),
     position=(0, -0.2),
 )
